@@ -16,9 +16,8 @@ defmodule ExPixUtils.Models.DynamicPixCharge do
     field(:chave, :string)
     field(:txid, :string)
 
-    field(:status, Ecto.Enum,
-      values: ~w(ATIVA CONCLUIDA REMOVIDA_PELO_USUARIO_RECEBEDOR REMOVIDA_PELO_PSP)a
-    )
+    # ATIVA / CONCLUIDA / REMOVIDA_PELO_USUARIO_RECEBEDOR / REMOVIDA_PELO_PSP
+    field(:status, :string)
 
     field(:solicitacaoPagador, :string)
     field(:location, :string)

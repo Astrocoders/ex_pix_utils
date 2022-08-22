@@ -12,7 +12,8 @@ defmodule ExPixUtils.Models.Transfer do
       field(:solicitacao, :utc_datetime)
     end
 
-    field(:status, Ecto.Enum, values: ~w(EM_PROCESSAMENTO REALIZADO NAO_REALIZADO)a)
+    # EM_PROCESSAMENTO / REALIZADO / NAO_REALIZADO
+    field(:status, :string)
   end
 
   def changeset(model \\ %__MODULE__{}, params) do

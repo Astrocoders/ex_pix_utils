@@ -14,7 +14,9 @@ defmodule ExPixUtils.Models.Refund do
       field(:liquidacao, :utc_datetime)
     end
 
-    field(:status, Ecto.Enum, values: ~w(EM_PROCESSAMENTO DEVOLVIDO NAO_REALIZADO)a)
+    # EM_PROCESSAMENTO / DEVOLVIDO / NAO_REALIZADO
+    field(:status, :string)
+
     field(:natureza, :string)
     field(:descricao, :string)
     field(:motivo, :string)
