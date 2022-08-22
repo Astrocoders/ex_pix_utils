@@ -22,7 +22,7 @@ defmodule ExPixUtils.MixProject do
   defp deps do
     [
       {:ecto, "~> 3.8.4"},
-      {:money, "~> 1.11.0"},
+      {:money, git: "https://github.com/georgelima/money"},
       {:ex_pix, git: "https://github.com/Astrocoders/ex_pix"}
     ]
   end

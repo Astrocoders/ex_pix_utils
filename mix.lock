@@ -4,6 +4,6 @@
   "ecto": {:hex, :ecto, "3.8.4", "e06b8b87e62b27fea17fd2ff6041572ddd10339fd16cdf58446e402c6c90a74b", [:mix], [{:decimal, "~> 1.6 or ~> 2.0", [hex: :decimal, repo: "hexpm", optional: false]}, {:jason, "~> 1.0", [hex: :jason, repo: "hexpm", optional: true]}, {:telemetry, "~> 0.4 or ~> 1.0", [hex: :telemetry, repo: "hexpm", optional: false]}], "hexpm", "f9244288b8d42db40515463a008cf3f4e0e564bb9c249fe87bf28a6d79fe82d4"},
   "elixir_make": {:hex, :elixir_make, "0.6.3", "bc07d53221216838d79e03a8019d0839786703129599e9619f4ab74c8c096eac", [:mix], [], "hexpm", "f5cbd651c5678bcaabdbb7857658ee106b12509cd976c2c2fca99688e1daf716"},
   "ex_pix": {:git, "https://github.com/Astrocoders/ex_pix", "ccf5012dfc2809f2be2c1223ab836c7a4e2fd90d", []},
-  "money": {:hex, :money, "1.11.0", "18b0a2e4bc978b9b6e37dcce9659f339f3915889abd319d43d35e302857480b1", [:mix], [{:decimal, "~> 1.0 or ~> 2.0", [hex: :decimal, repo: "hexpm", optional: true]}, {:ecto, "~> 1.0 or ~> 2.0 or ~> 2.1 or ~> 3.0", [hex: :ecto, repo: "hexpm", optional: true]}, {:phoenix_html, "~> 2.0 or ~> 3.0", [hex: :phoenix_html, repo: "hexpm", optional: true]}], "hexpm", "2233183ddac2523938cf04db541e7dfc95d7223f19fb0c8f3163012cf3b4a92a"},
+  "money": {:git, "https://github.com/georgelima/money", "9ea5ddb768b4deb645c695e85b5449f63dcc70d4", []},
   "telemetry": {:hex, :telemetry, "1.1.0", "a589817034a27eab11144ad24d5c0f9fab1f58173274b1e9bae7074af9cbee51", [:rebar3], [], "hexpm", "b727b2a1f75614774cff2d7565b64d0dfa5bd52ba517f16543e6fc7efcc0df48"},
 }
