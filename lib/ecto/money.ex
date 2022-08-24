@@ -5,9 +5,9 @@ defmodule ExPixUtils.Ecto.Money do
 
   def type, do: :bigint
 
-  def cast(amount) when is_binary(amount) do
-    parse_amount(amount)
-  end
+  def cast(amount) when is_binary(amount), do: parse_amount(amount)
+
+  def cast(amount) when is_integer(amount), do: {:ok, Money.new(amount)}
 
   def cast(%ExMoney{} = amount), do: {:ok, amount}
 
